@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+from django.http import HttpResponse,Http404
 import datetime
+
 
 #get time
 def current_datetime(request):
@@ -11,5 +12,15 @@ def current_datetime(request):
 
 def hello(request):
     return HttpResponse("Hello, world!")
+
+def hours_ahead(request,offset):
+    try:
+        offset = int(offset)
+    except ValueError:
+        raise Http404()
+    dt = datetime.datetime.now() + datetime.timedelta(hours=offset)
+    html = "<html><body>In %s hour(s), it will be %s. </body></html>" % (offset, dt)
+    return HttpResponse(html)
+
 
 
