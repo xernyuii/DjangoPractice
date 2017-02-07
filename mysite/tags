@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	mysite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	mysite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+BASE_DIR	mysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	mysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	mysite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Http404	mysite/views.py	/^from django.http import HttpResponse,Http404$/;"	kind:namespace	line:1
+HttpResponse	mysite/views.py	/^from django.http import HttpResponse,Http404$/;"	kind:namespace	line:1
+INSTALLED_APPS	mysite/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	mysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+MIDDLEWARE	mysite/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+ROOT_URLCONF	mysite/settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	kind:variable	line:52
+SECRET_KEY	mysite/settings.py	/^SECRET_KEY = 'rh1yi$y%f+_!&q4qq0p+h&9f88we-$)#cr-on3#1_dra)p)k96'$/;"	kind:variable	line:23
+STATIC_URL	mysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+TEMPLATES	mysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TIME_ZONE	mysite/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+USE_I18N	mysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_L10N	mysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_TZ	mysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+WSGI_APPLICATION	mysite/settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	kind:variable	line:70
+__init__.py	mysite/__init__.py	1;"	kind:file	line:1
+admin	mysite/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+application	mysite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+current_datetime	mysite/urls.py	/^from mysite.views import current_datetime$/;"	kind:namespace	line:19
+current_datetime	mysite/views.py	/^def current_datetime(request):$/;"	kind:function	line:6
+datetime	mysite/views.py	/^import datetime$/;"	kind:namespace	line:2
+django	manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	mysite/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+hello	mysite/urls.py	/^from mysite.views import hello$/;"	kind:namespace	line:18
+hello	mysite/views.py	/^def hello(request):$/;"	kind:function	line:13
+hours_ahead	mysite/urls.py	/^from mysite.views import hours_ahead$/;"	kind:namespace	line:20
+hours_ahead	mysite/views.py	/^def hours_ahead(request,offset):$/;"	kind:function	line:16
+manage.py	manage.py	1;"	kind:file	line:1
+os	manage.py	/^import os$/;"	kind:namespace	line:2
+os	mysite/settings.py	/^import os$/;"	kind:namespace	line:13
+os	mysite/wsgi.py	/^import os$/;"	kind:namespace	line:10
+settings.py	mysite/settings.py	1;"	kind:file	line:1
+sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+url	mysite/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	mysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:22
+urls.py	mysite/urls.py	1;"	kind:file	line:1
+views.py	mysite/views.py	1;"	kind:file	line:1
+wsgi.py	mysite/wsgi.py	1;"	kind:file	line:1
