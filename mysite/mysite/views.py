@@ -2,6 +2,8 @@ from django.http import HttpResponse,Http404
 import datetime
 from django.template import Template, Context
 
+
+
 #get time
 def current_datetime(request):
     now = datetime.datetime.now()
