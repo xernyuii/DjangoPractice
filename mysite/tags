@@ -7,6 +7,7 @@
 ALLOWED_HOSTS	mysite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 AUTH_PASSWORD_VALIDATORS	mysite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
 BASE_DIR	mysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Context	mysite/views.py	/^from django.template import Template, Context$/;"	kind:namespace	line:3
 DATABASES	mysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
 DEBUG	mysite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 Http404	mysite/views.py	/^from django.http import HttpResponse,Http404$/;"	kind:namespace	line:1
@@ -19,6 +20,7 @@ SECRET_KEY	mysite/settings.py	/^SECRET_KEY = 'rh1yi$y%f+_!&q4qq0p+h&9f88we-$)#cr
 STATIC_URL	mysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
 TEMPLATES	mysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
 TIME_ZONE	mysite/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+Template	mysite/views.py	/^from django.template import Template, Context$/;"	kind:namespace	line:3
 USE_I18N	mysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
 USE_L10N	mysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
 USE_TZ	mysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
@@ -27,15 +29,15 @@ __init__.py	mysite/__init__.py	1;"	kind:file	line:1
 admin	mysite/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
 application	mysite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 current_datetime	mysite/urls.py	/^from mysite.views import current_datetime$/;"	kind:namespace	line:19
-current_datetime	mysite/views.py	/^def current_datetime(request):$/;"	kind:function	line:6
+current_datetime	mysite/views.py	/^def current_datetime(request):$/;"	kind:function	line:8
 datetime	mysite/views.py	/^import datetime$/;"	kind:namespace	line:2
 django	manage.py	/^            import django$/;"	kind:namespace	line:14
 execute_from_command_line	manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 get_wsgi_application	mysite/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
 hello	mysite/urls.py	/^from mysite.views import hello$/;"	kind:namespace	line:18
-hello	mysite/views.py	/^def hello(request):$/;"	kind:function	line:13
+hello	mysite/views.py	/^def hello(request):$/;"	kind:function	line:16
 hours_ahead	mysite/urls.py	/^from mysite.views import hours_ahead$/;"	kind:namespace	line:20
-hours_ahead	mysite/views.py	/^def hours_ahead(request,offset):$/;"	kind:function	line:16
+hours_ahead	mysite/views.py	/^def hours_ahead(request,offset):$/;"	kind:function	line:19
 manage.py	manage.py	1;"	kind:file	line:1
 os	manage.py	/^import os$/;"	kind:namespace	line:2
 os	mysite/settings.py	/^import os$/;"	kind:namespace	line:13
